@@ -1,0 +1,43 @@
+
+Git hub - 
+1. https://github.com/sudheerj/javascript-interview-questions
+2. https://github.com/sarora944/Javascript-interview-questions
+
+Youtube - 
+1. https://www.youtube.com/watch?v=tOo9c6SK_do
+
+
+TOPICS
+1. Closure
+2. Hoisting
+3. Strict Mode
+4. Temporal Dead Zone
+5. Currying
+6. Different Ways of Crating Object.
+7. Function Constructor
+8. Classes
+9. Prototypes
+10. Arrays helper Methods
+11. Higher Order Functions
+12. IIFE
+13. Web Storage
+14. Web Workers
+15. Service Workers
+16. Promise
+17. ECMAScript 6 (https://www.w3schools.com/js/js_es6.asp)
+18. What is an event flow? (event bubbling, event capturing)
+19. this keyword - https://www.youtube.com/watch?v=9ksqBa8_txM
+
+
+SOLID Principles - 
+https://www.dhiwise.com/post/applying-solid-principles-in-javascript
+https://www.youtube.com/watch?v=Ix6JoarGYiA
+
+Promise - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+Promise Static Methods
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
+3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
+4. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race

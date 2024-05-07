@@ -1,0 +1,7 @@
+React 18 
+1. Latest Features -  https://www.youtube.com/watch?v=N0DhCV_-Qbg
+2. useTransition() vs useDeferredValue | React 18 - https://www.youtube.com/watch?v=lDukIAymutM
+
+
+SOLID Principles - 
+https://www.youtube.com/watch?v=Ix6JoarGYiA
