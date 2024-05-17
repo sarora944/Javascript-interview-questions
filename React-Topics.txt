@@ -2,6 +2,23 @@ React 18
 1. Latest Features -  https://www.youtube.com/watch?v=N0DhCV_-Qbg
 2. useTransition() vs useDeferredValue | React 18 - https://www.youtube.com/watch?v=lDukIAymutM
 
+React
+1. custom Hooks - create a custom hook to handle the API calls, 
+2. performance optimization.
+3. caching / memoization.
+4. Promises/ API calls using fetch and axios
+5. Vulnerabilities
+6. Unit testing (React testing library and Jest/enzyme)
+
+
+TOPICS
+1. https://www.youtube.com/watch?v=0cvp_yY-818&t=195s
+2. Mono Repo - https://www.youtube.com/watch?v=gOZSZSabCRY 
+3. Lerna - https://rachitabansal.medium.com/introduction-to-lerna-3fb7382a4d4e
+4. Yarn Workspace React Component - https://medium.com/@masoodhussain02/create-a-react-component-library-using-yarn-workspace-and-publish-5ab486b4ea3b
+5. JENKINS - https://www.geeksforgeeks.org/build-react-app-in-jenkins/
+6. Custom Hooks - https://dev.to/krishna7852/react-post-api-call-using-custom-hook-40fb
+7. Caching in React.js application -  https://medium.com/@Blochware/effective-caching-strategies-for-react-app-data-improving-performance-cb5b175e55fb
 
 SOLID Principles - 
 https://www.youtube.com/watch?v=Ix6JoarGYiA

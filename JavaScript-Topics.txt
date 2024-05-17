@@ -2,6 +2,7 @@
 Git hub - 
 1. https://github.com/sudheerj/javascript-interview-questions
 2. https://github.com/sarora944/Javascript-interview-questions
+3. https://github.com/lydiahallie/javascript-questions
 
 Youtube - 
 1. https://www.youtube.com/watch?v=tOo9c6SK_do
@@ -33,11 +34,21 @@ SOLID Principles -
 https://www.dhiwise.com/post/applying-solid-principles-in-javascript
 https://www.youtube.com/watch?v=Ix6JoarGYiA
 
-Promise - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+Promise - 
+1. https://www.youtube.com/watch?v=NJwRQgsu1Q8
+2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
 
 Promise Static Methods
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
 3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
 4. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race
+
+
+Front End Interview questions
+1. https://bigfrontend.dev/question?tags=Architecture
+2. https://www.reddit.com/r/Frontend/comments/uhhjdt/how_to_prepare_for_the_front_end_architect/
+3. 
