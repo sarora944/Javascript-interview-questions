@@ -28,6 +28,9 @@ TOPICS
 17. ECMAScript 6 (https://www.w3schools.com/js/js_es6.asp)
 18. What is an event flow? (event bubbling, event capturing)
 19. this keyword - https://www.youtube.com/watch?v=9ksqBa8_txM
+20. DOM Manipulation - https://www.youtube.com/watch?v=y17RuWkWdn8
+21. Singleton Pattern - https://javascriptpatterns.vercel.app/patterns/design-patterns/singleton-pattern
+22. 
 
 
 SOLID Principles - 
@@ -51,4 +54,4 @@ Promise Static Methods
 Front End Interview questions
 1. https://bigfrontend.dev/question?tags=Architecture
 2. https://www.reddit.com/r/Frontend/comments/uhhjdt/how_to_prepare_for_the_front_end_architect/
-3. 
+3. https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions

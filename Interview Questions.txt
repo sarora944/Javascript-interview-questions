@@ -1,0 +1,119 @@
+Optum Interview Questions
+
+1. create a custom hook to handle the API calls: https://dev.to/krishna7852/react-post-api-call-using-custom-hook-40fb
+2. I want to make parallel API calls, how we will handle those?
+    - Promise.all([promise1, promise2])
+3. different lifecycles methods of React
+4. we have a parent form and a child form, submit button is in the parent form, while submitting the parent form, we want the child form to be a part of the payload, how and where are we going to manage the state - 
+    - we will be adding the child form state in the parent form component itself and pass it as a prop to the child form
+
+================================================================================================================================
+
+EY Interview Questions - 
+1. different lifecycles methods of React?
+2. [{name: "Tom"}, {name: "Sam"}, {name: "Harry"}, {name: "Ram"}, {name: "Tom"}]
+    - what are the ways to add my name in the beiginning of the above Array - Ans. array.unshift, array.splice(index (0), numberOfItemsToDelete (0), {name: "Shubham"})
+    - how will we remove the object with name  "Tom", - Ans. array.filter((obj)=> obj.name !== "Tom")
+3. How does Redux work?
+4. what is getDerivedStateFromProps() lifecycle method.
+
+Programming Questions
+
+1. Create a counter component that has the following functionalities:
+    1. An increment button - that will increase the counter
+    2. A decrement button  - that will decrease the counter
+    3. An input to specify the counter step (by how much to increase/decrease the counter value)
+
+    for e.g.
+    Counter step is specified 3
+    Then counter should be incremented/decremented by 3
+
+    Ans- 
+        const [inputData, setInputData] = React.useState('');
+
+        const incrementCounter = () => {
+            setCounter(counter + inputData);
+        };
+        const decrementCounter = () => {
+            const data = counter - inputData;
+            if (data <= 0) {
+            setCounter(0);
+            } else {
+            setCounter(data);
+            }
+        };
+        const userInputData = (e) => {
+            const val = e.target.value;
+            setInputData(+val);
+        };
+        return (
+            <div>
+            <span>Code here</span>
+            <div>
+                <input type={'text'} onChange={userInputData} />
+            </div>
+            <div>
+                <button onClick={decrementCounter}>Decrement Counter</button>
+                <span>{counter}</span>
+                <button onClick={incrementCounter}>Increment Counter</button>
+            </div>
+            </div>
+        );
+
+
+2. Display the average balance by age group
+    So for e.g.,
+    Age    Balance
+    11     100
+    11     500
+    16     200
+    12     200
+    16     300
+
+    Display:
+    Age 11 has average balance of 300
+    Age 12 has average balance of 200
+    Age 16 has average balance of 250
+
+    Use the data.json file
+
+    Ans- 
+        const [updatedData, setUpdatedData] = React.useState([]);
+
+        React.useEffect(() => {
+        const inputData = {};
+        data.forEach((obj) => {
+            const money = obj.balance.replace(/[$]/g, "");
+            if (inputData[obj.age]) {
+            const value = inputData[obj.age];
+            inputData[obj.age] = [...value, money];
+            } else {
+            inputData[obj.age] = [money];
+            }
+        });
+        console.log("inputData", inputData);
+        const keys = Object.keys(inputData);
+
+        const output = keys.map((key) => {
+            let arr = [];
+            let sum = 0;
+            const moneyArr = inputData[key];
+            moneyArr.forEach((money) => {
+            const replacedNum = money.replace(/[,]/g, "");
+            sum = sum + +replacedNum;
+            });
+            const averageSum = (sum / moneyArr.length).toFixed(2);
+
+            return `Age ${key} has average balance of ${averageSum}`;
+        });
+        console.log("output", output);
+        setUpdatedData(output);
+        }, [data]);
+        return (
+        <>
+            {updatedData?.map((str) => (
+            <p>{str}</p>
+            ))}
+        </>
+        );
+================================================================================================================================

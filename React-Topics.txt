@@ -9,7 +9,10 @@ React
 4. Promises/ API calls using fetch and axios
 5. Vulnerabilities
 6. Unit testing (React testing library and Jest/enzyme)
-
+7. Lazy Load Images - https://www.freecodecamp.org/news/how-to-lazy-load-images-in-react/
+8. Lazy Load Images in Next.js - Next.js provides the Image(next/image) Component to load the image only when above th fold
+9. Redux Saga - https://www.youtube.com/watch?v=eA6rskkE9y8
+10. 
 
 TOPICS
 1. https://www.youtube.com/watch?v=0cvp_yY-818&t=195s
@@ -19,6 +22,14 @@ TOPICS
 5. JENKINS - https://www.geeksforgeeks.org/build-react-app-in-jenkins/
 6. Custom Hooks - https://dev.to/krishna7852/react-post-api-call-using-custom-hook-40fb
 7. Caching in React.js application -  https://medium.com/@Blochware/effective-caching-strategies-for-react-app-data-improving-performance-cb5b175e55fb
+8. Accessibility - 
+    - https://www.youtube.com/watch?v=0hqhAIjE_8I&t=604s
+    - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+    - https://www.washington.edu/accesscomputing/30-web-accessibility-tips
+9. Design Patterns - https://javascriptpatterns.vercel.app/patterns/react-patterns/conpres
+10. Frontend Developer Interview Questions and Answers - https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions
+
+
 
 SOLID Principles - 
 https://www.youtube.com/watch?v=Ix6JoarGYiA
